@@ -14,4 +14,4 @@ let schema = new mongoose.Schema({
     status: String
 });
 
-module.exports = mongoose.model('userdb', schema);
+module.exports = mongoose.model('crud', schema);
